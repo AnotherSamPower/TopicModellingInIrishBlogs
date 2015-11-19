@@ -1,0 +1,25 @@
+html{
+	height: 100vh;
+	width: 100vw;
+	/* IE10+ */ 
+	background-image: -ms-linear-gradient(top left, #FE5F55 0%, #EFA25B 50%, #F0B67F 100%);
+	/* Mozilla Firefox */ 
+	background-image: -moz-linear-gradient(top left, #FE5F55 0%, #EFA25B 50%, #F0B67F 100%);
+	/* Opera */ 
+	background-image: -o-linear-gradient(top left, #FE5F55 0%, #EFA25B 50%, #F0B67F 100%);
+	/* Webkit (Safari/Chrome 10) */ 
+	background-image: -webkit-gradient(linear, left top, right bottom, color-stop(0, #FE5F55), color-stop(50, #EFA25B), color-stop(100, #F0B67F));
+	/* Webkit (Chrome 11+) */ 
+	background-image: -webkit-linear-gradient(top left, #FE5F55 0%, #EFA25B 50%, #F0B67F 100%);
+	/* W3C Markup */ 
+	background-image: linear-gradient(to bottom right, #FE5F55 0%, #EFA25B 50%, #F0B67F 100%);
+}
+body{
+	height: 100%;
+	width: 60%;
+	margin-left: 20%;
+}
+object{
+	height:100%;
+	width:100%;
+}
